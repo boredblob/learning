@@ -1,1 +1,1 @@
-# learning
+Fancy statistics plus machines = AI
