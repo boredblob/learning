@@ -13,6 +13,7 @@ plt.figure(figsize=(4, 4))
 for i in range(predictions.shape[0]):
     plt.subplot(4, 4, i+1)
     plt.imshow(predictions[i, :, :, 0] * 127.5 + 127.5, cmap='binary')
+    plt.colorbar()
     plt.axis('off')
 
 plt.show()
