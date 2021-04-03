@@ -4,3 +4,5 @@ gan_2/web_viewer/node_modules/
 gan_2/training_checkpoints/
 gan_3/training_checkpoints/
 gan_3/ffhq/
+translation/translator_checkpoints/
+translation/training_checkpoints/

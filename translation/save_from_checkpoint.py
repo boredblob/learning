@@ -218,15 +218,9 @@ for epoch in range(EPOCHS - int(checkpoint.step)):
 
     if batch % 100 == 0:
       print(f'Epoch {int(checkpoint.step)} Batch {batch} Loss {batch_loss.numpy():.4f}')
-  # saving (checkpoint) the model every 2 epochs
-  if (epoch + 1) % 2 == 0:
-    manager.save()
-    print("Saved checkpoint for step {}: {}".format(int(checkpoint.step), checkpoint_dir))
 
   print(f'Epoch {int(checkpoint.step)} Loss {total_loss/steps_per_epoch:.4f}')
   print(f'Time taken for 1 epoch {time.time()-start:.2f} sec\n')
 
-checkpoint.encoder.save_weights('./weights/encoder/')
-checkpoint.decoder.save_weights('./weights/decoder/')
-tf.saved_model.save(encoder, './encoder')
-tf.saved_model.save(decoder, './decoder')
+tf.saved_model.save(checkpoint.encoder, './encoder')
+tf.saved_model.save(checkpoint.decoder, './decoder')
