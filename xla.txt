@@ -1,0 +1,1 @@
+set TF_XLA_FLAGS=--tf_xla_enable_xla_devices

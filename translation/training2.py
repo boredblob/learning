@@ -74,14 +74,12 @@ def make_encoder_model(vocab_size, embedding_dim, enc_units, batch_sz):
   gru = layers.GRU(enc_units,
     return_sequences=True,
     return_state=True,
-    recurrent_initializer='glorot_uniform'
+    recurrent_initializer='glorot_uniform',
+    reset_after=False
   )
-  inputs = layers.Input(shape=(None, vocab_size))
-  hidden = layers.Input(shape=(batch_sz, enc_units))
+  inputs = layers.Input(shape=(None,), batch_size=batch_sz)
+  hidden = layers.Input(shape=(enc_units), batch_size=batch_sz)
   x = embedding(inputs)
-  print(gru.get_initial_state(x))
-  print(x.shape)
-  print(hidden.shape)
   output, state = gru(x, initial_state=hidden)
   model = tf.keras.Model(inputs=[inputs, hidden], outputs=[output, state], name='encoder')
   return model
@@ -92,17 +90,20 @@ def make_decoder_model(vocab_size, embedding_dim, dec_units, batch_sz):
   gru = layers.GRU(dec_units,
     return_sequences=True,
     return_state=True,
-    recurrent_initializer='glorot_uniform'
+    recurrent_initializer='glorot_uniform',
+    reset_after=False
   )
   fc = layers.Dense(vocab_size)
 
-  inputs = layers.Input(shape=(None, vocab_size))
-  hidden = layers.Input(shape=(batch_sz, dec_units))
+  inputs = layers.Input(shape=(None,), batch_size=batch_sz)
+  hidden = layers.Input(shape=(dec_units), batch_size=batch_sz)
   x = embedding(inputs)
   # context_vector, attention_weights = attention(hidden, enc_output)
   #x = tf.concat([tf.expand_dims(context_vector, 1), inputs], axis=-1)
   output, state = gru(x, initial_state=hidden)
-  output = tf.reshape(output, (-1, output.shape[2]))
+  # print(output.shape)
+  # output = layers.Reshape((-1, output.shape[2]))(output)
+  # print(output.shape)
   output = fc(output)
   # model = tf.keras.Model(inputs=inputs, outputs=[output, state, attention_weights], name='decoder')
   model = tf.keras.Model(inputs=[inputs, hidden], outputs=[output, state], name='decoder')
@@ -121,12 +122,12 @@ def loss_function(real, pred):
 def train_step(inp, targ, enc_hidden):
   loss = 0
   with tf.GradientTape() as tape:
-    _, enc_hidden = encoder(inp, enc_hidden)
+    _, enc_hidden = encoder([inp, enc_hidden])
     dec_hidden = enc_hidden
     dec_input = tf.expand_dims([target_lang.word_index['<start>']] * BATCH_SIZE, 1)
 
     for t in range(1, targ.shape[1]):
-      predictions, dec_hidden, _ = decoder(dec_input, dec_hidden) # target is next input
+      predictions, dec_hidden = decoder([dec_input, dec_hidden]) # target is next input
       loss += loss_function(targ[:, t], predictions)
       dec_input = tf.expand_dims(targ[:, t], 1)
 
@@ -152,9 +153,6 @@ checkpoint = tf.train.Checkpoint(
 )
 manager = tf.train.CheckpointManager(checkpoint, checkpoint_dir, max_to_keep=3, checkpoint_name="checkpoint")
 
-encoder.summary()
-decoder.summary()
-
 # training
 checkpoint.restore(manager.latest_checkpoint)
 time.sleep(5)
@@ -167,8 +165,6 @@ for epoch in range(EPOCHS - int(checkpoint.step)):
   checkpoint.step.assign_add(1)
 
   enc_hidden = tf.zeros((BATCH_SIZE, units))
-  print("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
-  print(enc_hidden.shape)
   total_loss = 0
 
   for (batch, (inp, targ)) in enumerate(dataset.take(steps_per_epoch)):
