@@ -1,0 +1,549 @@
+Epoch 1 Batch 0 Loss 1.6232
+Epoch 1 Batch 100 Loss 0.6871
+Epoch 1 Batch 200 Loss 0.6339
+Epoch 1 Batch 300 Loss 0.5755
+Epoch 1 Batch 400 Loss 0.5064
+Epoch 1 Batch 500 Loss 0.5122
+Epoch 1 Batch 600 Loss 0.5264
+Epoch 1 Batch 700 Loss 0.4512
+Epoch 1 Batch 800 Loss 0.4330
+Epoch 1 Batch 900 Loss 0.4323
+Epoch 1 Batch 1000 Loss 0.4059
+Epoch 1 Batch 1100 Loss 0.4045
+Epoch 1 Batch 1200 Loss 0.4290
+Epoch 1 Batch 1300 Loss 0.3968
+Epoch 1 Batch 1400 Loss 0.3432
+Epoch 1 Batch 1500 Loss 0.3851
+Epoch 1 Batch 1600 Loss 0.3767
+Epoch 1 Batch 1700 Loss 0.3472
+Epoch 1 Batch 1800 Loss 0.3139
+Epoch 1 Batch 1900 Loss 0.3046
+Epoch 1 Batch 2000 Loss 0.3352
+Epoch 1 Batch 2100 Loss 0.3266
+Epoch 1 Batch 2200 Loss 0.3375
+Epoch 1 Batch 2300 Loss 0.3044
+Epoch 1 Loss 0.4371
+Time taken for 1 epoch 1633.97 sec
+
+Epoch 2 Batch 0 Loss 0.3132
+Epoch 2 Batch 100 Loss 0.2595
+Epoch 2 Batch 200 Loss 0.2495
+Epoch 2 Batch 300 Loss 0.2590
+Epoch 2 Batch 400 Loss 0.2431
+Epoch 2 Batch 500 Loss 0.2356
+Epoch 2 Batch 600 Loss 0.2676
+Epoch 2 Batch 700 Loss 0.2466
+Epoch 2 Batch 800 Loss 0.2169
+Epoch 2 Batch 900 Loss 0.2465
+Epoch 2 Batch 1000 Loss 0.2081
+Epoch 2 Batch 1100 Loss 0.2138
+Epoch 2 Batch 1200 Loss 0.1992
+Epoch 2 Batch 1300 Loss 0.2041
+Epoch 2 Batch 1400 Loss 0.1901
+Epoch 2 Batch 1500 Loss 0.1950
+Epoch 2 Batch 1600 Loss 0.2198
+Epoch 2 Batch 1700 Loss 0.2486
+Epoch 2 Batch 1800 Loss 0.1903
+Epoch 2 Batch 1900 Loss 0.1641
+Epoch 2 Batch 2000 Loss 0.1869
+Epoch 2 Batch 2100 Loss 0.2137
+Epoch 2 Batch 2200 Loss 0.1856
+Epoch 2 Batch 2300 Loss 0.1702
+Saved checkpoint for step 2: ./training_checkpoints
+Epoch 2 Loss 0.2170
+Time taken for 1 epoch 1569.91 sec
+
+Epoch 3 Batch 0 Loss 0.1451
+Epoch 3 Batch 100 Loss 0.1346
+Epoch 3 Batch 200 Loss 0.1250
+Epoch 3 Batch 300 Loss 0.1083
+Epoch 3 Batch 400 Loss 0.1408
+Epoch 3 Batch 500 Loss 0.1241
+Epoch 3 Batch 600 Loss 0.1213
+Epoch 3 Batch 700 Loss 0.1449
+Epoch 3 Batch 800 Loss 0.1326
+Epoch 3 Batch 900 Loss 0.1422
+Epoch 3 Batch 1000 Loss 0.1224
+Epoch 3 Batch 1100 Loss 0.1149
+Epoch 3 Batch 1200 Loss 0.1687
+Epoch 3 Batch 1300 Loss 0.1367
+Epoch 3 Batch 1400 Loss 0.1570
+Epoch 3 Batch 1500 Loss 0.1236
+Epoch 3 Batch 1600 Loss 0.1147
+Epoch 3 Batch 1700 Loss 0.1501
+Epoch 3 Batch 1800 Loss 0.1140
+Epoch 3 Batch 1900 Loss 0.1192
+Epoch 3 Batch 2000 Loss 0.1219
+Epoch 3 Batch 2100 Loss 0.1343
+Epoch 3 Batch 2200 Loss 0.1347
+Epoch 3 Batch 2300 Loss 0.1089
+Epoch 3 Loss 0.1284
+Time taken for 1 epoch 1565.63 sec
+
+Epoch 4 Batch 0 Loss 0.0871
+Epoch 4 Batch 100 Loss 0.0702
+Epoch 4 Batch 200 Loss 0.0770
+Epoch 4 Batch 300 Loss 0.0562
+Epoch 4 Batch 400 Loss 0.0940
+Epoch 4 Batch 500 Loss 0.0778
+Epoch 4 Batch 600 Loss 0.0874
+Epoch 4 Batch 700 Loss 0.0870
+Epoch 4 Batch 800 Loss 0.0824
+Epoch 4 Batch 900 Loss 0.0724
+Epoch 4 Batch 1000 Loss 0.0751
+Epoch 4 Batch 1100 Loss 0.0794
+Epoch 4 Batch 1200 Loss 0.0837
+Epoch 4 Batch 1300 Loss 0.0981
+Epoch 4 Batch 1400 Loss 0.0828
+Epoch 4 Batch 1500 Loss 0.0877
+Epoch 4 Batch 1600 Loss 0.0849
+Epoch 4 Batch 1700 Loss 0.1129
+Epoch 4 Batch 1800 Loss 0.1167
+Epoch 4 Batch 1900 Loss 0.0951
+Epoch 4 Batch 2000 Loss 0.0794
+Epoch 4 Batch 2100 Loss 0.0958
+Epoch 4 Batch 2200 Loss 0.0697
+Epoch 4 Batch 2300 Loss 0.1088
+Saved checkpoint for step 4: ./training_checkpoints
+Epoch 4 Loss 0.0849
+Time taken for 1 epoch 1660.83 sec
+
+Epoch 5 Batch 0 Loss 0.0624
+Epoch 5 Batch 100 Loss 0.0409
+Epoch 5 Batch 200 Loss 0.0513
+Epoch 5 Batch 300 Loss 0.0556
+Epoch 5 Batch 400 Loss 0.0541
+Epoch 5 Batch 500 Loss 0.0548
+Epoch 5 Batch 600 Loss 0.0630
+Epoch 5 Batch 700 Loss 0.0675
+Epoch 5 Batch 800 Loss 0.0624
+Epoch 5 Batch 900 Loss 0.0565
+Epoch 5 Batch 1000 Loss 0.0572
+Epoch 5 Batch 1100 Loss 0.0549
+Epoch 5 Batch 1200 Loss 0.0680
+Epoch 5 Batch 1300 Loss 0.0534
+Epoch 5 Batch 1400 Loss 0.0670
+Epoch 5 Batch 1500 Loss 0.0670
+Epoch 5 Batch 1600 Loss 0.0600
+Epoch 5 Batch 1700 Loss 0.0655
+Epoch 5 Batch 1800 Loss 0.0800
+Epoch 5 Batch 1900 Loss 0.0577
+Epoch 5 Batch 2000 Loss 0.0588
+Epoch 5 Batch 2100 Loss 0.0874
+Epoch 5 Batch 2200 Loss 0.0785
+Epoch 5 Batch 2300 Loss 0.0743
+Epoch 5 Loss 0.0618
+Time taken for 1 epoch 1566.59 sec
+
+Epoch 6 Batch 0 Loss 0.0363
+Epoch 6 Batch 100 Loss 0.0418
+Epoch 6 Batch 200 Loss 0.0310
+Epoch 6 Batch 300 Loss 0.0461
+Epoch 6 Batch 400 Loss 0.0440
+Epoch 6 Batch 500 Loss 0.0384
+Epoch 6 Batch 600 Loss 0.0324
+Epoch 6 Batch 700 Loss 0.0427
+Epoch 6 Batch 800 Loss 0.0432
+Epoch 6 Batch 900 Loss 0.0434
+Epoch 6 Batch 1000 Loss 0.0437
+Epoch 6 Batch 1100 Loss 0.0480
+Epoch 6 Batch 1200 Loss 0.0375
+Epoch 6 Batch 1300 Loss 0.0411
+Epoch 6 Batch 1400 Loss 0.0393
+Epoch 6 Batch 1500 Loss 0.0640
+Epoch 6 Batch 1600 Loss 0.0537
+Epoch 6 Batch 1700 Loss 0.0373
+Epoch 6 Batch 1800 Loss 0.0468
+Epoch 6 Batch 1900 Loss 0.0465
+Epoch 6 Batch 2000 Loss 0.0516
+Epoch 6 Batch 2100 Loss 0.0502
+Epoch 6 Batch 2200 Loss 0.0752
+Epoch 6 Batch 2300 Loss 0.0554
+Saved checkpoint for step 6: ./training_checkpoints
+Epoch 6 Loss 0.0493
+Time taken for 1 epoch 1576.76 sec
+
+Epoch 7 Batch 0 Loss 0.0352
+Epoch 7 Batch 100 Loss 0.0385
+Epoch 7 Batch 200 Loss 0.0323
+Epoch 7 Batch 300 Loss 0.0398
+Epoch 7 Batch 400 Loss 0.0366
+Epoch 7 Batch 500 Loss 0.0360
+Epoch 7 Batch 600 Loss 0.0391
+Epoch 7 Batch 700 Loss 0.0335
+Epoch 7 Batch 800 Loss 0.0276
+Epoch 7 Batch 900 Loss 0.0479
+Epoch 7 Batch 1000 Loss 0.0439
+Epoch 7 Batch 1100 Loss 0.0509
+Epoch 7 Batch 1200 Loss 0.0448
+Epoch 7 Batch 1300 Loss 0.0382
+Epoch 7 Batch 1400 Loss 0.0321
+Epoch 7 Batch 1500 Loss 0.0375
+Epoch 7 Batch 1600 Loss 0.0404
+Epoch 7 Batch 1700 Loss 0.0492
+Epoch 7 Batch 1800 Loss 0.0366
+Epoch 7 Batch 1900 Loss 0.0458
+Epoch 7 Batch 2000 Loss 0.0558
+Epoch 7 Batch 2100 Loss 0.0538
+Epoch 7 Batch 2200 Loss 0.0465
+Epoch 7 Batch 2300 Loss 0.0551
+Epoch 7 Loss 0.0415
+Time taken for 1 epoch 1566.19 sec
+
+Epoch 8 Batch 0 Loss 0.0253
+Epoch 8 Batch 100 Loss 0.0383
+Epoch 8 Batch 200 Loss 0.0314
+Epoch 8 Batch 300 Loss 0.0324
+Epoch 8 Batch 400 Loss 0.0351
+Epoch 8 Batch 500 Loss 0.0264
+Epoch 8 Batch 600 Loss 0.0317
+Epoch 8 Batch 700 Loss 0.0315
+Epoch 8 Batch 800 Loss 0.0300
+Epoch 8 Batch 900 Loss 0.0413
+Epoch 8 Batch 1000 Loss 0.0258
+Epoch 8 Batch 1100 Loss 0.0331
+Epoch 8 Batch 1200 Loss 0.0520
+Epoch 8 Batch 1300 Loss 0.0385
+Epoch 8 Batch 1400 Loss 0.0337
+Epoch 8 Batch 1500 Loss 0.0352
+Epoch 8 Batch 1600 Loss 0.0380
+Epoch 8 Batch 1700 Loss 0.0372
+Epoch 8 Batch 1800 Loss 0.0433
+Epoch 8 Batch 1900 Loss 0.0496
+Epoch 8 Batch 2000 Loss 0.0407
+Epoch 8 Batch 2100 Loss 0.0416
+Epoch 8 Batch 2200 Loss 0.0472
+Epoch 8 Batch 2300 Loss 0.0465
+Saved checkpoint for step 8: ./training_checkpoints
+Epoch 8 Loss 0.0367
+Time taken for 1 epoch 1570.11 sec
+
+Epoch 9 Batch 0 Loss 0.0258
+Epoch 9 Batch 100 Loss 0.0264
+Epoch 9 Batch 200 Loss 0.0296
+Epoch 9 Batch 300 Loss 0.0352
+Epoch 9 Batch 400 Loss 0.0224
+Epoch 9 Batch 500 Loss 0.0307
+Epoch 9 Batch 600 Loss 0.0279
+Epoch 9 Batch 700 Loss 0.0304
+Epoch 9 Batch 800 Loss 0.0350
+Epoch 9 Batch 900 Loss 0.0328
+Epoch 9 Batch 1000 Loss 0.0374
+Epoch 9 Batch 1100 Loss 0.0322
+Epoch 9 Batch 1200 Loss 0.0324
+Epoch 9 Batch 1300 Loss 0.0431
+Epoch 9 Batch 1400 Loss 0.0370
+Epoch 9 Batch 1500 Loss 0.0321
+Epoch 9 Batch 1600 Loss 0.0299
+Epoch 9 Batch 1700 Loss 0.0319
+Epoch 9 Batch 1800 Loss 0.0323
+Epoch 9 Batch 1900 Loss 0.0277
+Epoch 9 Batch 2000 Loss 0.0443
+Epoch 9 Batch 2100 Loss 0.0431
+Epoch 9 Batch 2200 Loss 0.0344
+Epoch 9 Batch 2300 Loss 0.0329
+Epoch 9 Loss 0.0336
+Time taken for 1 epoch 1560.76 sec
+
+Epoch 10 Batch 0 Loss 0.0349
+Epoch 10 Batch 100 Loss 0.0184
+Epoch 10 Batch 200 Loss 0.0255
+Epoch 10 Batch 300 Loss 0.0193
+Epoch 10 Batch 400 Loss 0.0188
+Epoch 10 Batch 500 Loss 0.0292
+Epoch 10 Batch 600 Loss 0.0254
+Epoch 10 Batch 700 Loss 0.0223
+Epoch 10 Batch 800 Loss 0.0337
+Epoch 10 Batch 900 Loss 0.0397
+Epoch 10 Batch 1000 Loss 0.0353
+Epoch 10 Batch 1100 Loss 0.0311
+Epoch 10 Batch 1200 Loss 0.0284
+Epoch 10 Batch 1300 Loss 0.0177
+Epoch 10 Batch 1400 Loss 0.0336
+Epoch 10 Batch 1500 Loss 0.0351
+Epoch 10 Batch 1600 Loss 0.0310
+Epoch 10 Batch 1700 Loss 0.0332
+Epoch 10 Batch 1800 Loss 0.0357
+Epoch 10 Batch 1900 Loss 0.0356
+Epoch 10 Batch 2000 Loss 0.0339
+Epoch 10 Batch 2100 Loss 0.0374
+Epoch 10 Batch 2200 Loss 0.0377
+Epoch 10 Batch 2300 Loss 0.0363
+Saved checkpoint for step 10: ./training_checkpoints
+Epoch 10 Loss 0.0315
+Time taken for 1 epoch 1561.78 sec
+
+Epoch 11 Batch 0 Loss 0.0226
+Epoch 11 Batch 100 Loss 0.0197
+Epoch 11 Batch 200 Loss 0.0323
+Epoch 11 Batch 300 Loss 0.0325
+Epoch 11 Batch 400 Loss 0.0218
+Epoch 11 Batch 500 Loss 0.0211
+Epoch 11 Batch 600 Loss 0.0241
+Epoch 11 Batch 700 Loss 0.0305
+Epoch 11 Batch 800 Loss 0.0372
+Epoch 11 Batch 900 Loss 0.0285
+Epoch 11 Batch 1000 Loss 0.0303
+Epoch 11 Batch 1100 Loss 0.0394
+Epoch 11 Batch 1200 Loss 0.0452
+Epoch 11 Batch 1300 Loss 0.0345
+Epoch 11 Batch 1400 Loss 0.0266
+Epoch 11 Batch 1500 Loss 0.0441
+Epoch 11 Batch 1600 Loss 0.0336
+Epoch 11 Batch 1700 Loss 0.0308
+Epoch 11 Batch 1800 Loss 0.0310
+Epoch 11 Batch 1900 Loss 0.0375
+Epoch 11 Batch 2000 Loss 0.0400
+Epoch 11 Batch 2100 Loss 0.0373
+Epoch 11 Batch 2200 Loss 0.0246
+Epoch 11 Batch 2300 Loss 0.0424
+Epoch 11 Loss 0.0301
+Time taken for 1 epoch 1555.04 sec
+
+Epoch 12 Batch 0 Loss 0.0261
+Epoch 12 Batch 100 Loss 0.0227
+Epoch 12 Batch 200 Loss 0.0280
+Epoch 12 Batch 300 Loss 0.0281
+Epoch 12 Batch 400 Loss 0.0188
+Epoch 12 Batch 500 Loss 0.0212
+Epoch 12 Batch 600 Loss 0.0230
+Epoch 12 Batch 700 Loss 0.0338
+Epoch 12 Batch 800 Loss 0.0277
+Epoch 12 Batch 900 Loss 0.0212
+Epoch 12 Batch 1000 Loss 0.0463
+Epoch 12 Batch 1100 Loss 0.0292
+Epoch 12 Batch 1200 Loss 0.0247
+Epoch 12 Batch 1300 Loss 0.0243
+Epoch 12 Batch 1400 Loss 0.0259
+Epoch 12 Batch 1500 Loss 0.0244
+Epoch 12 Batch 1600 Loss 0.0391
+Epoch 12 Batch 1700 Loss 0.0431
+Epoch 12 Batch 1800 Loss 0.0189
+Epoch 12 Batch 1900 Loss 0.0283
+Epoch 12 Batch 2000 Loss 0.0431
+Epoch 12 Batch 2100 Loss 0.0336
+Epoch 12 Batch 2200 Loss 0.0230
+Epoch 12 Batch 2300 Loss 0.0477
+Saved checkpoint for step 12: ./training_checkpoints
+Epoch 12 Loss 0.0291
+Time taken for 1 epoch 1561.90 sec
+
+Epoch 13 Batch 0 Loss 0.0230
+Epoch 13 Batch 100 Loss 0.0175
+Epoch 13 Batch 200 Loss 0.0311
+Epoch 13 Batch 300 Loss 0.0305
+Epoch 13 Batch 400 Loss 0.0251
+Epoch 13 Batch 500 Loss 0.0129
+Epoch 13 Batch 600 Loss 0.0248
+Epoch 13 Batch 700 Loss 0.0279
+Epoch 13 Batch 800 Loss 0.0298
+Epoch 13 Batch 900 Loss 0.0268
+Epoch 13 Batch 1000 Loss 0.0208
+Epoch 13 Batch 1100 Loss 0.0253
+Epoch 13 Batch 1200 Loss 0.0278
+Epoch 13 Batch 1300 Loss 0.0399
+Epoch 13 Batch 1400 Loss 0.0296
+Epoch 13 Batch 1500 Loss 0.0208
+Epoch 13 Batch 1600 Loss 0.0383
+Epoch 13 Batch 1700 Loss 0.0268
+Epoch 13 Batch 1800 Loss 0.0342
+Epoch 13 Batch 1900 Loss 0.0413
+Epoch 13 Batch 2000 Loss 0.0363
+Epoch 13 Batch 2100 Loss 0.0462
+Epoch 13 Batch 2200 Loss 0.0356
+Epoch 13 Batch 2300 Loss 0.0314
+Epoch 13 Loss 0.0283
+Time taken for 1 epoch 1556.93 sec
+
+Epoch 14 Batch 0 Loss 0.0185
+Epoch 14 Batch 100 Loss 0.0306
+Epoch 14 Batch 200 Loss 0.0199
+Epoch 14 Batch 300 Loss 0.0216
+Epoch 14 Batch 400 Loss 0.0268
+Epoch 14 Batch 500 Loss 0.0189
+Epoch 14 Batch 600 Loss 0.0360
+Epoch 14 Batch 700 Loss 0.0279
+Epoch 14 Batch 800 Loss 0.0194
+Epoch 14 Batch 900 Loss 0.0248
+Epoch 14 Batch 1000 Loss 0.0260
+Epoch 14 Batch 1100 Loss 0.0235
+Epoch 14 Batch 1200 Loss 0.0292
+Epoch 14 Batch 1300 Loss 0.0174
+Epoch 14 Batch 1400 Loss 0.0382
+Epoch 14 Batch 1500 Loss 0.0250
+Epoch 14 Batch 1600 Loss 0.0244
+Epoch 14 Batch 1700 Loss 0.0363
+Epoch 14 Batch 1800 Loss 0.0253
+Epoch 14 Batch 1900 Loss 0.0348
+Epoch 14 Batch 2000 Loss 0.0289
+Epoch 14 Batch 2100 Loss 0.0341
+Epoch 14 Batch 2200 Loss 0.0324
+Epoch 14 Batch 2300 Loss 0.0411
+Saved checkpoint for step 14: ./training_checkpoints
+Epoch 14 Loss 0.0279
+Time taken for 1 epoch 1565.60 sec
+
+Epoch 15 Batch 0 Loss 0.0176
+Epoch 15 Batch 100 Loss 0.0181
+Epoch 15 Batch 200 Loss 0.0230
+Epoch 15 Batch 300 Loss 0.0225
+Epoch 15 Batch 400 Loss 0.0248
+Epoch 15 Batch 500 Loss 0.0391
+Epoch 15 Batch 600 Loss 0.0281
+Epoch 15 Batch 700 Loss 0.0250
+Epoch 15 Batch 800 Loss 0.0161
+Epoch 15 Batch 900 Loss 0.0256
+Epoch 15 Batch 1000 Loss 0.0282
+Epoch 15 Batch 1100 Loss 0.0399
+Epoch 15 Batch 1200 Loss 0.0202
+Epoch 15 Batch 1300 Loss 0.0184
+Epoch 15 Batch 1400 Loss 0.0270
+Epoch 15 Batch 1500 Loss 0.0290
+Epoch 15 Batch 1600 Loss 0.0245
+Epoch 15 Batch 1700 Loss 0.0249
+Epoch 15 Batch 1800 Loss 0.0299
+Epoch 15 Batch 1900 Loss 0.0287
+Epoch 15 Batch 2000 Loss 0.0296
+Epoch 15 Batch 2100 Loss 0.0398
+Epoch 15 Batch 2200 Loss 0.0387
+Epoch 15 Batch 2300 Loss 0.0247
+Epoch 15 Loss 0.0275
+Time taken for 1 epoch 1555.57 sec
+
+Epoch 16 Batch 0 Loss 0.0182
+Epoch 16 Batch 100 Loss 0.0270
+Epoch 16 Batch 200 Loss 0.0212
+Epoch 16 Batch 300 Loss 0.0234
+Epoch 16 Batch 400 Loss 0.0222
+Epoch 16 Batch 500 Loss 0.0201
+Epoch 16 Batch 600 Loss 0.0215
+Epoch 16 Batch 700 Loss 0.0233
+Epoch 16 Batch 800 Loss 0.0226
+Epoch 16 Batch 900 Loss 0.0248
+Epoch 16 Batch 1000 Loss 0.0208
+Epoch 16 Batch 1100 Loss 0.0340
+Epoch 16 Batch 1200 Loss 0.0235
+Epoch 16 Batch 1300 Loss 0.0250
+Epoch 16 Batch 1400 Loss 0.0303
+Epoch 16 Batch 1500 Loss 0.0298
+Epoch 16 Batch 1600 Loss 0.0382
+Epoch 16 Batch 1700 Loss 0.0350
+Epoch 16 Batch 1800 Loss 0.0251
+Epoch 16 Batch 1900 Loss 0.0297
+Epoch 16 Batch 2000 Loss 0.0410
+Epoch 16 Batch 2100 Loss 0.0334
+Epoch 16 Batch 2200 Loss 0.0367
+Epoch 16 Batch 2300 Loss 0.0299
+Saved checkpoint for step 16: ./training_checkpoints
+Epoch 16 Loss 0.0274
+Time taken for 1 epoch 1559.88 sec
+
+Epoch 17 Batch 0 Loss 0.0148
+Epoch 17 Batch 100 Loss 0.0176
+Epoch 17 Batch 200 Loss 0.0303
+Epoch 17 Batch 300 Loss 0.0145
+Epoch 17 Batch 400 Loss 0.0211
+Epoch 17 Batch 500 Loss 0.0257
+Epoch 17 Batch 600 Loss 0.0249
+Epoch 17 Batch 700 Loss 0.0247
+Epoch 17 Batch 800 Loss 0.0208
+Epoch 17 Batch 900 Loss 0.0295
+Epoch 17 Batch 1000 Loss 0.0265
+Epoch 17 Batch 1100 Loss 0.0272
+Epoch 17 Batch 1200 Loss 0.0387
+Epoch 17 Batch 1300 Loss 0.0300
+Epoch 17 Batch 1400 Loss 0.0266
+Epoch 17 Batch 1500 Loss 0.0274
+Epoch 17 Batch 1600 Loss 0.0283
+Epoch 17 Batch 1700 Loss 0.0251
+Epoch 17 Batch 1800 Loss 0.0255
+Epoch 17 Batch 1900 Loss 0.0344
+Epoch 17 Batch 2000 Loss 0.0252
+Epoch 17 Batch 2100 Loss 0.0311
+Epoch 17 Batch 2200 Loss 0.0272
+Epoch 17 Batch 2300 Loss 0.0440
+Epoch 17 Loss 0.0270
+Time taken for 1 epoch 1549.58 sec
+
+Epoch 18 Batch 0 Loss 0.0191
+Epoch 18 Batch 100 Loss 0.0224
+Epoch 18 Batch 200 Loss 0.0225
+Epoch 18 Batch 300 Loss 0.0120
+Epoch 18 Batch 400 Loss 0.0232
+Epoch 18 Batch 500 Loss 0.0289
+Epoch 18 Batch 600 Loss 0.0288
+Epoch 18 Batch 700 Loss 0.0230
+Epoch 18 Batch 800 Loss 0.0217
+Epoch 18 Batch 900 Loss 0.0252
+Epoch 18 Batch 1000 Loss 0.0148
+Epoch 18 Batch 1100 Loss 0.0202
+Epoch 18 Batch 1200 Loss 0.0231
+Epoch 18 Batch 1300 Loss 0.0227
+Epoch 18 Batch 1400 Loss 0.0337
+Epoch 18 Batch 1500 Loss 0.0342
+Epoch 18 Batch 1600 Loss 0.0249
+Epoch 18 Batch 1700 Loss 0.0333
+Epoch 18 Batch 1800 Loss 0.0334
+Epoch 18 Batch 1900 Loss 0.0344
+Epoch 18 Batch 2000 Loss 0.0293
+Epoch 18 Batch 2100 Loss 0.0312
+Epoch 18 Batch 2200 Loss 0.0367
+Epoch 18 Batch 2300 Loss 0.0298
+Saved checkpoint for step 18: ./training_checkpoints
+Epoch 18 Loss 0.0270
+Time taken for 1 epoch 1556.44 sec
+
+Epoch 19 Batch 0 Loss 0.0198
+Epoch 19 Batch 100 Loss 0.0176
+Epoch 19 Batch 200 Loss 0.0200
+Epoch 19 Batch 300 Loss 0.0221
+Epoch 19 Batch 400 Loss 0.0186
+Epoch 19 Batch 500 Loss 0.0238
+Epoch 19 Batch 600 Loss 0.0211
+Epoch 19 Batch 700 Loss 0.0247
+Epoch 19 Batch 800 Loss 0.0152
+Epoch 19 Batch 900 Loss 0.0302
+Epoch 19 Batch 1000 Loss 0.0290
+Epoch 19 Batch 1100 Loss 0.0165
+Epoch 19 Batch 1200 Loss 0.0253
+Epoch 19 Batch 1300 Loss 0.0302
+Epoch 19 Batch 1400 Loss 0.0314
+Epoch 19 Batch 1500 Loss 0.0373
+Epoch 19 Batch 1600 Loss 0.0363
+Epoch 19 Batch 1700 Loss 0.0375
+Epoch 19 Batch 1800 Loss 0.0356
+Epoch 19 Batch 1900 Loss 0.0267
+Epoch 19 Batch 2000 Loss 0.0300
+Epoch 19 Batch 2100 Loss 0.0295
+Epoch 19 Batch 2200 Loss 0.0357
+Epoch 19 Batch 2300 Loss 0.0188
+Epoch 19 Loss 0.0274
+Time taken for 1 epoch 1552.21 sec
+
+Epoch 20 Batch 0 Loss 0.0134
+Epoch 20 Batch 100 Loss 0.0190
+Epoch 20 Batch 200 Loss 0.0254
+Epoch 20 Batch 300 Loss 0.0192
+Epoch 20 Batch 400 Loss 0.0249
+Epoch 20 Batch 500 Loss 0.0289
+Epoch 20 Batch 600 Loss 0.0223
+Epoch 20 Batch 700 Loss 0.0246
+Epoch 20 Batch 800 Loss 0.0249
+Epoch 20 Batch 900 Loss 0.0343
+Epoch 20 Batch 1000 Loss 0.0241
+Epoch 20 Batch 1100 Loss 0.0303
+Epoch 20 Batch 1200 Loss 0.0259
+Epoch 20 Batch 1300 Loss 0.0394
+Epoch 20 Batch 1400 Loss 0.0318
+Epoch 20 Batch 1500 Loss 0.0270
+Epoch 20 Batch 1600 Loss 0.0246
+Epoch 20 Batch 1700 Loss 0.0412
+Epoch 20 Batch 1800 Loss 0.0208
+Epoch 20 Batch 1900 Loss 0.0289
+Epoch 20 Batch 2000 Loss 0.0344
+Epoch 20 Batch 2100 Loss 0.0384
+Epoch 20 Batch 2200 Loss 0.0347
+Epoch 20 Batch 2300 Loss 0.0340
+Saved checkpoint for step 20: ./training_checkpoints
+Epoch 20 Loss 0.0270
+Time taken for 1 epoch 1564.08 sec

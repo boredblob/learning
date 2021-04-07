@@ -1,3 +1,0 @@
-# Available Models
-
-- [FashionGAN](/fashion)
